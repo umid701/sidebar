@@ -1,0 +1,26 @@
+.card-wrapper{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    animation: card 2s infinite;
+}
+
+
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+    height: 70%;
+    
+}
+
+@keyframes card{
+    from{
+        transform: rotate(180deg) scale(1.5);
+    }
+    to{
+        transform: rotate(360deg) scale(1);
+    }
+    
+}

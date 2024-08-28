@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    margin: 0;
+    background-color: #f7f8fc;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    margin-bottom: 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.nav li.active a {
+    color: #6C63FF;
+    font-weight: bold;
+}
+
+.upgrade {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f0f1ff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.upgrade p {
+    margin: 0 0 10px;
+}
+
+.upgrade button {
+    background-color: #6C63FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header input[type="search"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.metric {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.metric h2 {
+    margin: 0 0 10px;
+}
+
+.metric p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.customer-table {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-table h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status.active {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status.inactive {
+    background-color: #f8d7da;
+    color: #721c24;
+}
